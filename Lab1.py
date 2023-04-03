@@ -21,6 +21,9 @@ ball=sphere(pos=vec(0,y[0],0),radius=1.)
 floor=box(pos=vec(0,-20,0),axis=vec(1,0,0),length=40,width=10,height=0.2
 ,color=color.green)
 
+T = text(text='My name is Yvonne',
+     align='center', color=color.green)
+
 g1=graph(width=1000,height=400,fast=True,align='right',
     ytitle='<i>y (m)<i>', foreground=color.black, background=color.white, 
     xmin=0., xmax=60,ymin=floy, ymax=(y[0]+(v[0]**2/(2*g)))*1.05) 
